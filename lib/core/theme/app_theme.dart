@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tokoatk/core/constans/api_colars.dart';
+import 'package:tokoatk/core/constants/api_colars.dart';
 
 class AppTheme {
   static ThemeData get light {
