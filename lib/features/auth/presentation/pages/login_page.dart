@@ -1,5 +1,5 @@
 import 'package:email_validator/email_validator.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart' as fb;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tokoatk/core/routes/app_router.dart';
@@ -88,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
           ElevatedButton(
             onPressed: () async {
-              await FirebaseAuth.instance.sendPasswordResetEmail(
+              await fb.FirebaseAuth.instance.sendPasswordResetEmail(
                 email: ctrl.text.trim(),
               );
               if (context.mounted) Navigator.pop(context);
