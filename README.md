@@ -1,8 +1,6 @@
 # 🛍️ TOKO ATK APPS
 
-<p align="center">
-  <img src="logo.png" alt="Logo Kampus" width="200"/>
-</p>
+
 
 > Project UTS Aplikasi Mobile — Sistem E-Commerce ATK dengan Flutter & Golang
 
